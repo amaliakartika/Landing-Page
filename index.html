@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page SehatPlus</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Logo SehatPlus.png" alt="Logo SehatPlus">
+        </div>
+
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#SehatShop">SehatShop</a></li>
+          <li><a href="#Konsultasi">Konsultasi</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+        </ul>
+
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </nav>
+    </header>
+
+  <section id="Home">
+    <div class="main">
+      <div class="main_text">
+        <h1>Menjadikan Kesehatan Prioritas Utama Anda</h1>
+      </div>
+
+      <p id="description">
+        Kami berkomitmen untuk menjadi mitra utama Anda dalam perjalanan menuju kesehatan yang lebih baik.
+      </p>
+  
+      <div class="main_btn">
+        <a href="https://skilvul.com" id="link">Booking Sekarang</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <div class="main_image">
+    <img src="Gambar Dokter-1.png">
+  </div>
+  
+  <form>
+    <div class="booking">
+      <h4>Butuh konsultasi?</h4>
+      <h1>Booking Konsultasi</h1>
+    </div>
+
+    <input id="name" type="text" placeholder="Enter name here">
+    <input id="city" type="text" placeholder="Enter city here">
+    <input id="email" type="email" placeholder="Enter email here">
+    <input id="zip-code" type="text" placeholder="Enter zip-code here">
+    <input id="status" type="checkbox">
+    <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+
+    <button id="submit-form" type="submit">
+      <a href="#">Submit</a>
+    </button>
+
+    <div id="warning"></div>
+  </form>
+
+  <footer class="footer" id="footer">
+      <div class="container footer-wrapper">
+          <div class="col-1-footer">
+              <p class="copy">&copy; Full-Stack Web Development - 35rd Team - Amalia Kartika. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
